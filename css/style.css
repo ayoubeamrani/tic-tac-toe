@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.game {
+    width: 600px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 6px;
+    /* margin: auto; */
+}
+.game div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    background-color: #ddd;
+    cursor: pointer;
+    font-size: 100px;
+    transition-duration: .3s;
+}
+.game div:hover {
+    background-color: black;
+    color: white;
+}
