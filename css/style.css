@@ -65,3 +65,16 @@ body {
   #again button:hover {
     background-color: #45a049; /* Darker Green */
   }
+#again {
+    animation: fadeIn 2s ease forwards; /* Change the duration and timing function as needed */
+    opacity: 0; /* Start with the element invisible */
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0; /* Start with the element invisible */
+    }
+    100% {
+        opacity: 1; /* Fully visible */
+    }
+}
