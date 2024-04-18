@@ -8,7 +8,11 @@
     <script defer src="js/script.js"></script>
 </head>
 <body>
-    <div class="game">
+    <div id="again">
+        <h2 id="indicator"></h2>
+        <button onclick="playAgin()">play again</button>
+    </div>
+    <div id="board">
         <div id="1" onclick="game(this.id)"></div>
         <div id="2" onclick="game(this.id)"></div>
         <div id="3" onclick="game(this.id)"></div>
